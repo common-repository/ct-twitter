@@ -1,0 +1,32 @@
+/*
+* Styles
+* 
+* @package CT Twitter
+* @subpackage CSS
+*
+
+/* ============================================================================== */
+/* Browser Reset
+/* ============================================================================== */
+
+	.widget_ct_twitter ul,
+	.widget_ct_twitter li {	border: none; margin: 0; padding: 0; list-style: none;}
+
+/* ============================================================================== */
+/* List Styles
+/* ============================================================================== */
+
+	.widget_ct_twitter li { margin: 0 0 8px 0; padding: 0 0 8px 0; border-bottom: 1px dotted #ccc;}
+	.widget_ct_twitter p.right { text-align: right;}
+			
+		.widget_ct_twitter a:hover { text-decoration: none;}
+		
+			.widget_ct_twitter a.read-more {
+				display: inline-block; -webkit-transition: color 400ms ease-out; -moz-transition: color 400ms ease-out;
+			}
+				.widget_ct_twitter a.read-more em {
+					-webkit-transition: all 200ms ease-out; -moz-transition: all 200ms ease-out;
+				}
+					.widget_ct_twitter a.read-more:hover em{
+						padding-left: 5px;
+					}
